@@ -30,17 +30,45 @@
     </div>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="wrap">
-      <p class="eyebrow">Middle-grade horror &middot; Ages 8&ndash;12 &middot; By B. Carter</p>
-      <h1><span class="slime-text">SEER FRIGHTS</span></h1>
-      <p class="tagline">You should be scared.</p>
-      <p class="lede">Standalone scary books for kids who finished Goosebumps and want more of <em>exactly</em> that. Every chapter ends on a scare. Half of them are fake. The other half are real &mdash; and you&rsquo;ll never know which until you turn the page.</p>
-      <div class="cta-row">
-        <a href="/books/" class="btn btn-primary">See the books &rarr;</a>
-        <a href="/books/dont-go-into-the-swamp/" class="btn btn-ghost">Start with Book 1</a>
+  <!-- HERO
+       Layered hero. Works today with the CSS-fog fallback + Book 1 cover.
+       When the commissioned art arrives (see HERO-ART-BRIEF.md), drop the files in
+       /images/ and add the `has-art` class to <section class="hero"> below:
+         - images/hero-bg.webp     → background atmosphere layer
+         - images/hero-books.png   → transparent two-book stack
+         - images/hero-logo.png    → transparent slime logo lockup
+       No other change needed — `.has-art` swaps the fallback for the art layers. -->
+  <section class="hero has-art">
+    <!-- Atmosphere fallback (CSS fog + glow). Hidden once `.has-art` is set. -->
+    <div class="hero-bg" aria-hidden="true">
+      <span class="fog fog-1"></span>
+      <span class="fog fog-2"></span>
+      <span class="hero-glow"></span>
+    </div>
+    <!-- Art layers (active because the .has-art class is set on the section). -->
+    <div class="hero-art" aria-hidden="true">
+      <div class="hero-art-bg"></div>
+      <div class="hero-art-scrim"></div>
+      <img class="hero-art-books" src="/images/hero-books-alpha.png" alt="" loading="eager" decoding="async">
+      <img class="hero-art-logo" src="/images/hero-logo-alpha.png" alt="" loading="eager" decoding="async">
+    </div>
+
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Middle-grade horror &middot; Ages 8&ndash;12 &middot; By B. Carter</p>
+        <h1><span class="slime-text">SEER FRIGHTS</span></h1>
+        <p class="tagline">You should be scared.</p>
+        <p class="lede">Standalone scary books for kids who finished Goosebumps and want more of <em>exactly</em> that &mdash; and for the grown-ups who grew up on it. Every chapter ends on a scare. Half of them are fake. The other half are real &mdash; and you&rsquo;ll never know which until you turn the page.</p>
+        <div class="cta-row">
+          <a href="/books/" class="btn btn-primary">See the books &rarr;</a>
+          <a href="/books/dont-go-into-the-swamp/" class="btn btn-ghost">Start with Book 1</a>
+        </div>
       </div>
+      <!-- Fallback cover (shown until `.has-art` is set). -->
+      <a class="hero-cover" href="/books/dont-go-into-the-swamp/" aria-label="Don't Go into the Swamp — Seer Frights Book 1">
+        <span class="hero-cover-badge">Book 1</span>
+        <img src="/images/cover-dont-go-into-the-swamp-front.jpg" alt="Don't Go into the Swamp &mdash; Seer Frights Book 1 cover">
+      </a>
     </div>
   </section>
 
@@ -95,12 +123,32 @@
     <div class="wrap">
       <div class="section-head">
         <h2>Scary, not scarring.</h2>
-        <p class="lede">Made for the flashlight-under-the-covers crowd. An 8-year-old can finish one and still sleep. A 12-year-old gets the better jokes.</p>
+        <p class="lede">Made for the flashlight-under-the-covers crowd. An 8-year-old can finish one and still sleep. A 12-year-old gets the better jokes. And the adult reading over their shoulder gets pulled right back to being ten.</p>
       </div>
       <div class="rules-grid">
         <div class="rule"><span class="num">&check;</span><h3>Creepy &amp; funny</h3><p>Real dread, real laughs. Gross-out gags and bickering siblings keep it fun.</p></div>
         <div class="rule"><span class="num">&check;</span><h3>Bloodless</h3><p>The scariest thing is a face in a window, never a wound. No gore.</p></div>
         <div class="rule"><span class="num">&check;</span><h3>Read in any order</h3><p>No homework. Pick any one cold &mdash; no recurring hero, no prior reading.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR GROWN-UPS -->
+  <section class="section">
+    <div class="wrap">
+      <div class="featured">
+        <div>
+          <p class="meta-tag">For the kid you used to be</p>
+          <h3>Grown-ups, these are for you too.</h3>
+          <p class="blurb">If you read Goosebumps under the covers in the &rsquo;90s, you already know the feeling these books are built to give back. Read one yourself in a single sitting, or read it out loud to a kid and watch them refuse to let you stop. The scares are quick, the jokes land for both of you, and nobody&rsquo;s too old to be scared of what&rsquo;s in the swamp. Same engine, every age &mdash; you just bring your own flashlight.</p>
+          <div class="cta-row" style="justify-content:flex-start;">
+            <a href="/books/dont-go-into-the-swamp/" class="btn btn-primary">Start with Book 1 &rarr;</a>
+            <a href="https://seerwarns.com/books/" target="_blank" rel="noopener" class="btn btn-ghost">Want it darker? Seer Warns &rarr;</a>
+          </div>
+        </div>
+        <a class="cover" href="/books/dont-go-into-the-swamp/">
+          <img src="/images/cover-dont-go-into-the-swamp-front.jpg" alt="Don't Go into the Swamp &mdash; Seer Frights Book 1 cover">
+        </a>
       </div>
     </div>
   </section>
