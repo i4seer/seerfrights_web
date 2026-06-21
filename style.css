@@ -340,6 +340,9 @@ img { max-width: 100%; display: block; }
 }
 .status.out { background: rgba(124,255,63,0.16); color: var(--slime); }
 .status.soon { background: rgba(155,92,255,0.16); color: var(--purple); }
+.status.review { background: rgba(124,255,63,0.12); color: #a6ff79; }
+.status.writing { background: rgba(155,92,255,0.16); color: var(--purple); }
+.status.dev { background: rgba(243,236,214,0.10); color: var(--bone-mute); }
 
 /* ── At a glance / aside cards ────────────────────────────────── */
 .glance {
