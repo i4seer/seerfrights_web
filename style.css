@@ -309,6 +309,8 @@ img { max-width: 100%; display: block; }
 .featured {
   display: grid; grid-template-columns: minmax(0, 320px) 1fr; gap: 2.5rem; align-items: center;
 }
+/* cover-on-the-right variant: keep the cover column narrow when it's the 2nd child */
+.featured.reverse { grid-template-columns: 1fr minmax(0, 320px); }
 .featured .cover img { border-radius: 10px; box-shadow: var(--shadow); border: 1px solid rgba(0,0,0,0.4); }
 .featured .meta-tag {
   font-family: "Fredoka", sans-serif; font-weight: 700; text-transform: uppercase;
