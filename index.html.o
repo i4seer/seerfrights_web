@@ -31,8 +31,7 @@
 <main id="main">
 <section class="home-hero">
   <img src="/images/hero-home.webp" alt="Moonlit swamp boardwalk beside a cornfield and twisted moss-covered tree" fetchpriority="high">
-  <div class="shell">
-    <div class="hero-copy">
+  <div class="shell hero-copy">
     <p class="eyebrow">Middle-grade horror · Ages 8+ · By B. Carter</p>
     <h1>SEER FRIGHTS</h1>
     <p class="tagline">You should be scared.</p>
@@ -40,7 +39,6 @@
     <div class="btn-row">
       <a class="btn btn-green" href="/books/">See the books ›</a>
       <a class="btn btn-outline" href="/books/dont-go-into-the-swamp/">Start with Book 1</a>
-    </div>
     </div>
   </div>
   <div class="hero-note">“One rule: don’t trust the quiet chapters.”</div>
