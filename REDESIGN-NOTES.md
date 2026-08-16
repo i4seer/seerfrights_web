@@ -60,3 +60,13 @@ The original site had strong series identity and good book-cover assets, but the
 ## One content question
 
 The source About page says **“Book 1 coming soon”**, while the Books page and individual book pages say the books are **“Available now.”** The redesign preserves the About-page wording rather than silently changing source content. If that status is outdated, it should be changed to the wording you prefer.
+
+
+## August 2026 navigation / content update
+
+- Added `/other-series/` in the Seer Worlds-style card layout, themed for Seer Frights.
+- Added `/news/` with a featured series update and supporting book/news cards.
+- Added Other Series and News to the top navigation on every page.
+- Rebuilt the footer using the multi-column i4Seer publisher pattern, with Seer Frights styling.
+- Added optimized Seer Worlds and Seer Warns artwork for the Other Series page.
+- Preserved the latest home-hero alignment update.
