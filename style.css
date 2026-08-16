@@ -299,3 +299,13 @@ button,input,textarea{font:inherit}
 .news-card p{font-size:.9rem;line-height:1.48;margin:.3rem 0 .65rem;color:#66756f}
 .news-card a{font:800 .68rem/1 Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;text-decoration:none;color:#5e8a18}
 .news-card a:hover{color:#38620a}
+
+
+/* Homepage cross-series discovery */
+.home-cross-promo .section-heading{max-width:760px;margin-bottom:30px}
+.home-series-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.home-series-grid .series-card{min-height:430px}
+@media(max-width:760px){
+  .home-series-grid{grid-template-columns:1fr}
+  .home-series-grid .series-card{min-height:390px}
+}
