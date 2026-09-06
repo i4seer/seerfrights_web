@@ -88,9 +88,59 @@ fonts, no markup changes beyond meta tags):
   as a stopgap — it should be replaced with cover-aligned art in a later phase.
 - `theme-color` → `#000000` on every page; home `og:image` → the Book 1 cover.
 
-Later phases (not done): real wordmark SVG in the header/hero/footer, a dripping
-display face for headings, a new cover-wall or object hero, per-book accent
-colors, drip/spotlight motifs.
+## September 2026 — cover-alignment redesign, Phase 2 (typography)
+
+A three-face horror-paperback type system, matching how the covers set type
+(dripping title face + clean supporting text):
+
+- **Display — `Creepster`** (Google Fonts, dripping horror caps). Used only for
+  the wordmark, hero H1s, book-title heroes, the `BOOK N` card labels, and the
+  `— THE BOOKS —` rule. This is the closest free match to the covers' hand-drawn
+  lettering; the exact cover font isn't licensed for web, so a true wordmark SVG
+  is still a later item.
+- **Headings — `Anton`** (Google Fonts, heavy condensed). All section H2s, card
+  and feature titles, set uppercase — the horror-paperback subhead voice,
+  replacing the plain-serif headings that read as generic.
+- **Body — Georgia**, unchanged.
+- **Wordmark fixed to one line.** `SEER FRIGHTS` was stacked `SEER` / `FRIGHTS`
+  in the header and footer, which the locked cover spec forbids; both halves are
+  now one baseline-aligned line in the display face.
+- **Cover title color adopted.** Home hero wordmark → acid green (`--green`, the
+  series-mark color); book-title heroes → `--title-yellow #E6C91E` (the exact
+  locked cover title hex).
+- Fonts are `preconnect`ed and requested in one stylesheet call per page.
+
+Mobile note: headless screenshots couldn't reliably emulate a phone viewport, so
+the small-screen type scale (sane `clamp` floors + `body{overflow-x:hidden}` as a
+backstop) is coded but wants a real-device check.
+
+Still not done: true wordmark SVG, per-book accent colors, replacing the legacy
+painterly `about-scene.webp`.
+
+## September 2026 — cover-alignment redesign, Phase 3 (heroes + motifs)
+
+The heroes were the last piece still speaking the old painterly-swamp language.
+Rebuilt in CSS with the covers as the only art:
+
+- **Home hero = the cover wall.** The painterly `hero-home.webp` is gone; the
+  hero is now flat black with one top-center pool of light and the five covers
+  fanned like a shelf caught in that light, wordmark and copy alongside. "The
+  hero is the most characteristic thing in the subject's world" — that's the five
+  covers.
+- **Sub-hero and book-hero** dropped `hero-sub.webp` for flat black + a spotlight
+  glow + the drip edge. Book heroes glow and drip in the cover title yellow
+  (`--title-yellow`); everything else in acid green.
+- **Drip motif.** A reusable `--drip` SVG mask (solid bar + irregular hanging
+  teardrops, echoing the wet cover lettering) sits at the bottom edge of every
+  dark hero, doubling as the transition into the light sections.
+- **Spotlight motif.** Every dark hero carries a single radial pool of light
+  (green from the top, a warm brass secondary) — the way every cover object is
+  lit.
+- **404** rebuilt to match (black + spotlight, green Creepster headline).
+- **Favicon** recolored to the new palette (`#000` ground, `#d8f23c` slime).
+- **Other Series** — the Seer Frights card now uses the Book 1 cover instead of
+  the retired swamp photo.
+- `hero-home.webp` and `hero-sub.webp` deleted (unreferenced, ~850 KB).
 
 ## August 2026 navigation / content update
 
