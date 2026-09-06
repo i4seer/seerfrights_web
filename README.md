@@ -20,12 +20,19 @@ The footer follows the richer publisher-style structure used on i4Seer, adapted 
 
 ## Assets
 
-- `images/cover-*.jpg` — approved book covers (1600×2560). These now carry the
-  hero art too: the home hero fans all five, and the sub/book heroes are pure
-  black with a spotlight and a CSS drip edge (no photographic hero).
-- `images/about-scene.webp` — legacy painterly image, still on About and the
-  home page, CSS-graded toward the palette pending replacement
+- `images/cover-*.jpg` — approved book covers (1600×2560). These are the only
+  Seer Frights art on the site: the home hero fans all five, the "grown-ups" and
+  About sections show cover clusters, and the sub/book heroes are pure black with
+  a spotlight and a CSS drip edge (no photographic hero).
 - `images/series-worlds.webp`, `images/series-warns.webp` — Other Series artwork
   (cross-brand; the Seer Frights card there uses the Book 1 cover)
+
+## Per-book accent
+
+Each book page's `<body>` carries a `book-1`…`book-5` class that sets `--accent`
+(an unquoted `r,g,b` triple) to the color of light glowing off that cover's
+object — cyan for the Book 1 lantern, brass for the Book 5 key, etc. It drives
+the book-hero spotlight and the large cover's glow; the brand green/yellow are
+unchanged.
 
 No build step is required.

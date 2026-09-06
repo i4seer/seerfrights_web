@@ -114,8 +114,25 @@ Mobile note: headless screenshots couldn't reliably emulate a phone viewport, so
 the small-screen type scale (sane `clamp` floors + `body{overflow-x:hidden}` as a
 backstop) is coded but wants a real-device check.
 
-Still not done: true wordmark SVG, per-book accent colors, replacing the legacy
-painterly `about-scene.webp`.
+## September 2026 — cover-alignment redesign, Phase 4 (per-book accent + last of the legacy art)
+
+- **Per-book "object light."** Each book page's `<body>` gets a `book-1`…`book-5`
+  class that sets `--accent` (an unquoted `r,g,b` triple) to the color glowing
+  off that cover's object: `77,184,230` cyan (Book 1 lantern), `201,138,60` warm
+  wood (Book 2 tag), `138,143,150` ash (Book 3 skin), `224,169,46` gold (Book 4
+  card), `185,138,78` brass (Book 5 key). It drives the book-hero's secondary
+  spotlight pool and the large cover's outer glow — nothing else. The brand
+  green/yellow are untouched, so the differentiation is atmospheric, not a
+  five-theme system.
+- **`about-scene.webp` retired.** The painterly swamp is gone from both places it
+  lived: the home "grown-ups" section now shows a two-cover pair (`.cover-duo`)
+  and the About sidebar a three-cover fan (`.cover-trio`), both on a lit surface
+  with a chartreuse glow — same treatment as the book cards. The CSS grading
+  hack from Phase 1 is removed.
+- `images/` now holds only the five covers plus the two cross-brand Other Series
+  images. Every Seer Frights image on the site is a book cover.
+
+Still not done: a true hand-drawn wordmark SVG (Creepster is a close stand-in).
 
 ## September 2026 — cover-alignment redesign, Phase 3 (heroes + motifs)
 
