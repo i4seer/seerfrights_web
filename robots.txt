@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://seerfrights.com/sitemap.xml

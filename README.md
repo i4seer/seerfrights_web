@@ -1,38 +1,20 @@
 # Seer Frights website
 
-Static site for **seerfrights.com**.
+Static production site for `seerfrights.com`.
 
-## Structure
-
-- `/` — home
-- `/books/` — all books
-- `/books/<title>/` — individual book pages
-- `/about/` — series, author, and imprint
-- `/other-series/` — Seer Worlds, Seer Frights, and Seer Warns
-- `/news/` — series news and updates
-- `/404.html` — custom not-found page
+## Deploy
+Upload the contents of this folder to the web root. The site uses root-relative links and clean directory URLs.
 
 ## Design
+The site uses a restrained editorial system inspired by the Seer Worlds presentation: cinematic dark hero, warm paper content surfaces, simple book-first grids, minimal accent color, and quiet typography. The book covers carry the horror styling.
 
-The site uses the same broad modern layout language as Seer Worlds while keeping the Seer Frights identity. As of the September 2026 cover-alignment pass (Phases 1–2 — see `REDESIGN-NOTES.md`), it follows the redesigned book covers: true-black sections separated by thin acid-yellow hairline rules, near-white relief sections, black-field book cards with a chartreuse glow behind each cover, regraded heroes, the yellower Seer Frights green accent, and a three-face type system — `Creepster` (dripping wordmark / heroes / book titles), `Anton` (condensed section headings), Georgia (body).
+## Content
+Books 1–5 and their existing Amazon links are included. All five are marked Available now.
 
-The footer follows the richer publisher-style structure used on i4Seer, adapted to Seer Frights with Explore, Seer Series, and Seer Press columns.
+## 2026-09-06 layout correction
+- Corrected responsive cover rendering so HTML intrinsic height hints cannot stretch portrait covers.
+- Corrected Home, Books, News, and every individual book page.
+- Rebalanced the desktop homepage hero so the SEER FRIGHTS wordmark and decorative cover stack never overlap.
 
-## Assets
-
-- `images/cover-*.jpg` — approved book covers (1600×2560). These are the only
-  Seer Frights art on the site: the home hero fans all five, the "grown-ups" and
-  About sections show cover clusters, and the sub/book heroes are pure black with
-  a spotlight and a CSS drip edge (no photographic hero).
-- `images/series-worlds.webp`, `images/series-warns.webp` — Other Series artwork
-  (cross-brand; the Seer Frights card there uses the Book 1 cover)
-
-## Per-book accent
-
-Each book page's `<body>` carries a `book-1`…`book-5` class that sets `--accent`
-(an unquoted `r,g,b` triple) to the color of light glowing off that cover's
-object — cyan for the Book 1 lantern, brass for the Book 5 key, etc. It drives
-the book-hero spotlight and the large cover's glow; the brand green/yellow are
-unchanged.
-
-No build step is required.
+## 2026-09-06 homepage hero update
+The homepage now uses the approved combined Seer Frights series artwork rather than stacked book covers. It combines visual elements from the swamp, scarecrow field, Camp Sunny Pines, the house, and recurring kid-scale objects into one panoramic hero. The live site header remains separate from the artwork, the Explore Books button is clickable, and mobile gets a real CTA over the cropped panorama.
