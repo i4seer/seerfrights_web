@@ -62,6 +62,36 @@ The original site had strong series identity and good book-cover assets, but the
 The source About page says **“Book 1 coming soon”**, while the Books page and individual book pages say the books are **“Available now.”** The redesign preserves the About-page wording rather than silently changing source content. If that status is outdated, it should be changed to the wording you prefer.
 
 
+## September 2026 — cover-alignment redesign, Phase 1
+
+The book covers were redesigned into a new look: true-black backgrounds, one
+spotlit object per book, a dripping acid-yellow "SEER FRIGHTS" wordmark, and a
+thin "— BOOK N —" rule. The site's cream-paper / painterly-swamp language no
+longer matched. Phase 1 realigns color and texture only (no new art, no new
+fonts, no markup changes beyond meta tags):
+
+- **Palette retuned to the covers.** Grounds moved from deep swamp-green to true
+  black (`--night-deep:#000`); the accent green moved yellower
+  (`#a6e93c → #d8f23c`) to match the wordmark; warm paper tones replaced with a
+  near-white (`#faf9f5`); added a `--brass` object-light accent and a `--glow`
+  token.
+- **Dropped the parchment treatment.** Removed the torn-paper `clip-path` edges
+  and the paper-speckle `radial-gradient` textures. `.parchment` and every dark
+  band are now flat black separated by thin chartreuse hairline rules
+  (`.rule-divider` echoes the cover's BOOK-N rule).
+- **Cards rebuilt for black covers.** Book tiles, news cards, related strip, and
+  the home `.split-art` no longer sit covers on a warm mat — they use a
+  near-black field with a soft chartreuse glow behind the cover.
+- **Heroes regraded.** Home / sub / book / 404 hero photos are crushed toward
+  black with a single warm key light instead of the old blue-green wash.
+- **Legacy painterly art** (`about-scene.webp`) is desaturated and dimmed via CSS
+  as a stopgap — it should be replaced with cover-aligned art in a later phase.
+- `theme-color` → `#000000` on every page; home `og:image` → the Book 1 cover.
+
+Later phases (not done): real wordmark SVG in the header/hero/footer, a dripping
+display face for headings, a new cover-wall or object hero, per-book accent
+colors, drip/spotlight motifs.
+
 ## August 2026 navigation / content update
 
 - Added `/other-series/` in the Seer Worlds-style card layout, themed for Seer Frights.

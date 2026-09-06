@@ -14,7 +14,7 @@ Static site for **seerfrights.com**.
 
 ## Design
 
-The site uses the same broad modern design language as Seer Worlds while keeping the Seer Frights identity: full-bleed illustrated heroes, transparent navigation, cream-paper sections, deep swamp-green sections, strong book-cover presentation, responsive grids, and the Seer Frights green accent palette.
+The site uses the same broad modern layout language as Seer Worlds while keeping the Seer Frights identity. As of the September 2026 cover-alignment pass (Phase 1 — see `REDESIGN-NOTES.md`), the palette follows the redesigned book covers: true-black sections separated by thin acid-yellow hairline rules, near-white relief sections, black-field book cards with a chartreuse glow behind each cover, regraded heroes, and the yellower Seer Frights green accent.
 
 The footer follows the richer publisher-style structure used on i4Seer, adapted to Seer Frights with Explore, Seer Series, and Seer Press columns.
 
