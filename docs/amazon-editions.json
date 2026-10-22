@@ -1,0 +1,63 @@
+{
+  "verified_on": "2026-10-22",
+  "kindle_series": "https://www.amazon.com/dp/B0GRRNLVLQ?binding=kindle_edition",
+  "paperback_series": "https://www.amazon.com/dp/B0GRRNLVLQ?binding=paperback",
+  "books": [
+    {
+      "number": 1,
+      "title": "Don’t Go into the Swamp",
+      "page": "/books/dont-go-into-the-swamp/",
+      "kindle": "https://www.amazon.com/dp/B0GR9Q28JW",
+      "paperback": "https://www.amazon.com/dp/B0GS9CPVF7"
+    },
+    {
+      "number": 2,
+      "title": "The Scarecrows Know Your Name",
+      "page": "/books/the-scarecrows-know-your-name/",
+      "kindle": "https://www.amazon.com/dp/B0H8WDL283",
+      "paperback": "https://www.amazon.com/dp/B0H8W2TTCB"
+    },
+    {
+      "number": 3,
+      "title": "The Mark Spreads",
+      "page": "/books/the-mark-spreads/",
+      "kindle": "https://www.amazon.com/dp/B0HBR7T6J2",
+      "paperback": "https://www.amazon.com/dp/B0HBQTD5T2"
+    },
+    {
+      "number": 4,
+      "title": "Welcome to Camp Sunny Pines",
+      "page": "/books/welcome-to-camp-sunny-pines/",
+      "kindle": "https://www.amazon.com/dp/B0HC4BL7GR",
+      "paperback": "https://www.amazon.com/dp/B0HC9B8DZS"
+    },
+    {
+      "number": 5,
+      "title": "The House That Wasn’t There",
+      "page": "/books/the-house-that-wasnt-there/",
+      "kindle": "https://www.amazon.com/dp/B0HCCXMDQR",
+      "paperback": "https://www.amazon.com/dp/B0HCHTYCZ7"
+    },
+    {
+      "number": 6,
+      "title": "Say It Three Times",
+      "page": "/books/say-it-three-times/",
+      "kindle": "https://www.amazon.com/dp/B0H1YM3GS1",
+      "paperback": "https://www.amazon.com/dp/B0HKW5KMDC"
+    },
+    {
+      "number": 7,
+      "title": "The Last Bus Home",
+      "page": "/books/the-last-bus-home/",
+      "kindle": "https://www.amazon.com/dp/B0HMJRS6BF",
+      "paperback": "https://www.amazon.com/dp/B0HMJXF6CS"
+    },
+    {
+      "number": 8,
+      "title": "Don’t Feed the Statue",
+      "page": "/books/dont-feed-the-statue/",
+      "kindle": "https://www.amazon.com/dp/B0HMJR66WS",
+      "paperback": null
+    }
+  ]
+}
