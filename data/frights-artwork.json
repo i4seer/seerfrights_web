@@ -1,0 +1,225 @@
+{
+  "source": "SEERFRIGHTS",
+  "books": [
+    {
+      "number": 1,
+      "title": "Don't Go into the Swamp",
+      "slug": "dont-go-into-the-swamp",
+      "source": "book01/images-print/cover-front.png",
+      "source_sha256": "763641d271f94b35cb85d60f1be83e58dff8f7e9306c5a1c4cf4e005b357e5ab",
+      "jpeg": "/images/cover-dont-go-into-the-swamp-front.jpg?v=c84b17ef683e",
+      "webp": "/images/cover-dont-go-into-the-swamp-front-web.webp?v=6add42b7c00b",
+      "artwork": "/images/art-dont-go-into-the-swamp.webp?v=45c3a75558d9",
+      "thumbnail": "/images/art-dont-go-into-the-swamp-thumb.webp?v=354135101ace"
+    },
+    {
+      "number": 2,
+      "title": "The Scarecrows Know Your Name",
+      "slug": "the-scarecrows-know-your-name",
+      "source": "book02/images-print/cover-front.png",
+      "source_sha256": "4d79cb65c2a150338594fc0ed8dda789d6ba68c43c72dea28b82cbdcc4bf7e6d",
+      "jpeg": "/images/cover-the-scarecrows-know-your-name-front.jpg?v=89a235d60e95",
+      "webp": "/images/cover-the-scarecrows-know-your-name-front-web.webp?v=c6998a56fb6c",
+      "artwork": "/images/art-the-scarecrows-know-your-name.webp?v=fabbb95d2647",
+      "thumbnail": "/images/art-the-scarecrows-know-your-name-thumb.webp?v=c3444fb1240a"
+    },
+    {
+      "number": 3,
+      "title": "The Mark Spreads",
+      "slug": "the-mark-spreads",
+      "source": "book03/images-print/cover-front.png",
+      "source_sha256": "d9e729b677566bb13aaca69a2cd1222280574ae89d7a9b4cb36e4913fbc05bea",
+      "jpeg": "/images/cover-the-mark-spreads-front.jpg?v=4e0ef6e094a2",
+      "webp": "/images/cover-the-mark-spreads-front-web.webp?v=355424454a7a",
+      "artwork": "/images/art-the-mark-spreads.webp?v=f9f2f5abb46c",
+      "thumbnail": "/images/art-the-mark-spreads-thumb.webp?v=9093974f4e10"
+    },
+    {
+      "number": 4,
+      "title": "Welcome to Camp Sunny Pines",
+      "slug": "welcome-to-camp-sunny-pines",
+      "source": "book04/images-print/cover-front.png",
+      "source_sha256": "6ac580e37c1d13a871f0ae83cd0ad08d154ba39f0dcfe0242da88e706fe9c326",
+      "jpeg": "/images/cover-welcome-to-camp-sunny-pines-front.jpg?v=1be333fa040a",
+      "webp": "/images/cover-welcome-to-camp-sunny-pines-front-web.webp?v=fcb2228fa3a2",
+      "artwork": "/images/art-welcome-to-camp-sunny-pines.webp?v=ffa796b6981b",
+      "thumbnail": "/images/art-welcome-to-camp-sunny-pines-thumb.webp?v=a78559ba3dd3"
+    },
+    {
+      "number": 5,
+      "title": "The House That Wasn't There",
+      "slug": "the-house-that-wasnt-there",
+      "source": "book05/images-print/cover-front.png",
+      "source_sha256": "4a39fcbbd12be8d560c2de0ef9b12f1af02e248733edf08676c4abe9109f51d4",
+      "jpeg": "/images/cover-the-house-that-wasnt-there-front.jpg?v=3366bee51791",
+      "webp": "/images/cover-the-house-that-wasnt-there-front-web.webp?v=412b9fca484d",
+      "artwork": "/images/art-the-house-that-wasnt-there.webp?v=e1d73075d677",
+      "thumbnail": "/images/art-the-house-that-wasnt-there-thumb.webp?v=764ab0733cb4"
+    },
+    {
+      "number": 6,
+      "title": "Say It Three Times",
+      "slug": "say-it-three-times",
+      "source": "book06/images-print/cover-front.png",
+      "source_sha256": "3b438bd8af25fe523946b8e70a1a32c55c7bd0579f5e3567e14f0a6461565835",
+      "jpeg": "/images/cover-say-it-three-times-front.jpg?v=18e3a160930e",
+      "webp": "/images/cover-say-it-three-times-front-web.webp?v=ce48efd5ed99",
+      "artwork": "/images/art-say-it-three-times.webp?v=ac7239d0984f",
+      "thumbnail": "/images/art-say-it-three-times-thumb.webp?v=414fc908f7a6"
+    },
+    {
+      "number": 7,
+      "title": "The Last Bus Home",
+      "slug": "the-last-bus-home",
+      "source": "book07/images-print/cover-front.png",
+      "source_sha256": "f61edc5919d0f108e8e67f886181de5c7aa38385f724c9fbb40be2fa8e89cb20",
+      "jpeg": "/images/cover-the-last-bus-home-front.jpg?v=70ef14ec91a4",
+      "webp": "/images/cover-the-last-bus-home-front-web.webp?v=27f4b6701b34",
+      "artwork": "/images/art-the-last-bus-home.webp?v=253d3e7ddfed",
+      "thumbnail": "/images/art-the-last-bus-home-thumb.webp?v=7086ad6903c8"
+    },
+    {
+      "number": 8,
+      "title": "Don't Feed the Statue",
+      "slug": "dont-feed-the-statue",
+      "source": "book08/images-print/cover-front.png",
+      "source_sha256": "fbed986eb3979c7df676b0d99e5b98a7a1cfa249d0ebd6c3d319d8150b04f6dd",
+      "jpeg": "/images/cover-dont-feed-the-statue-front.jpg?v=7d055d1465f5",
+      "webp": "/images/cover-dont-feed-the-statue-front-web.webp?v=de43d976b42d",
+      "artwork": "/images/art-dont-feed-the-statue.webp?v=55f801629a4c",
+      "thumbnail": "/images/art-dont-feed-the-statue-thumb.webp?v=5b6b7f6a7414"
+    },
+    {
+      "number": 9,
+      "title": "The Substitute",
+      "slug": "the-substitute",
+      "source": "book09/images-print/cover-front.png",
+      "source_sha256": "535df5350b4f9c5f62a4779c5d55e9a2cdfbeb2e79ed8c4d4a886453aee61f34",
+      "jpeg": "/images/cover-the-substitute-front.jpg?v=b682b13a20a7",
+      "webp": "/images/cover-the-substitute-front-web.webp?v=e64d4bd631dc",
+      "artwork": "/images/art-the-substitute.webp?v=bb737ff11105",
+      "thumbnail": "/images/art-the-substitute-thumb.webp?v=1ade0289b0d0"
+    },
+    {
+      "number": 10,
+      "title": "Beware the Tide Pools",
+      "slug": "beware-the-tide-pools",
+      "source": "book10/images-print/cover-front.png",
+      "source_sha256": "1377c0902f469238ab26ec8cc5721088859a1bb1652749cf43701c40d0289e8a",
+      "jpeg": "/images/cover-beware-the-tide-pools-front.jpg?v=ec1648de212d",
+      "webp": "/images/cover-beware-the-tide-pools-front-web.webp?v=125648772a99",
+      "artwork": "/images/art-beware-the-tide-pools.webp?v=38af11eb0010",
+      "thumbnail": "/images/art-beware-the-tide-pools-thumb.webp?v=f9993ce45f14"
+    },
+    {
+      "number": 11,
+      "title": "Don't Wake the Exhibit",
+      "slug": "dont-wake-the-exhibit",
+      "source": "book11/images-print/cover-front.png",
+      "source_sha256": "2a730b8d9c93f8aa63f2a75f23c91d75e07e34bfaf3ce4ac83d9870c3a06dbb0",
+      "jpeg": "/images/cover-dont-wake-the-exhibit-front.jpg?v=e83613282b1e",
+      "webp": "/images/cover-dont-wake-the-exhibit-front-web.webp?v=988cfa2c4cae",
+      "artwork": "/images/art-dont-wake-the-exhibit.webp?v=1d4b3f5b14cb",
+      "thumbnail": "/images/art-dont-wake-the-exhibit-thumb.webp?v=379533ea93cc"
+    },
+    {
+      "number": 12,
+      "title": "Don't Trust the Snow",
+      "slug": "dont-trust-the-snow",
+      "source": "book12/images-print/cover-front.png",
+      "source_sha256": "780d9d023568d697bf6db0d84f4b2ce5572cd7a00e787f083a1aa8061ad1db6b",
+      "jpeg": "/images/cover-dont-trust-the-snow-front.jpg?v=e9563f16624b",
+      "webp": "/images/cover-dont-trust-the-snow-front-web.webp?v=144c01a92941",
+      "artwork": "/images/art-dont-trust-the-snow.webp?v=d87fb28ef4e0",
+      "thumbnail": "/images/art-dont-trust-the-snow-thumb.webp?v=667a8ec93ab4"
+    },
+    {
+      "number": 13,
+      "title": "The Carnival Closes at Midnight",
+      "slug": "the-carnival-closes-at-midnight",
+      "source": "book13/images-print/cover-front.png",
+      "source_sha256": "bcabf78362e551a7ca57e6733796bfd5dbf039cd4756e153ec9d179e4f2a4bf3",
+      "jpeg": "/images/cover-the-carnival-closes-at-midnight-front.jpg?v=effabf225dfc",
+      "webp": "/images/cover-the-carnival-closes-at-midnight-front-web.webp?v=80bb5a6b5e5e",
+      "artwork": "/images/art-the-carnival-closes-at-midnight.webp?v=375345f1281a",
+      "thumbnail": "/images/art-the-carnival-closes-at-midnight-thumb.webp?v=dedbbc875e63"
+    },
+    {
+      "number": 14,
+      "title": "Don't Whistle for the Dog",
+      "slug": "dont-whistle-for-the-dog",
+      "source": "book14/images-print/cover-front.png",
+      "source_sha256": "7e213f5161131d88915acfcb5f8935c31c38718fed902c8b65d12948dcfc3309",
+      "jpeg": "/images/cover-dont-whistle-for-the-dog-front.jpg?v=a1276275e38a",
+      "webp": "/images/cover-dont-whistle-for-the-dog-front-web.webp?v=442d4c78accb",
+      "artwork": "/images/art-dont-whistle-for-the-dog.webp?v=880a6dedc9bc",
+      "thumbnail": "/images/art-dont-whistle-for-the-dog-thumb.webp?v=64fb3303a469"
+    },
+    {
+      "number": 15,
+      "title": "Don't Read the Last Page",
+      "slug": "dont-read-the-last-page",
+      "source": "book15/images-print/cover-front.png",
+      "source_sha256": "ed5fd3eb98cca187b49460772112126e6435f7c6a17749ec566847d115e758ef",
+      "jpeg": "/images/cover-dont-read-the-last-page-front.jpg?v=58c3c2c40df1",
+      "webp": "/images/cover-dont-read-the-last-page-front-web.webp?v=b6dcf7d6618a",
+      "artwork": "/images/art-dont-read-the-last-page.webp?v=c4b64920c329",
+      "thumbnail": "/images/art-dont-read-the-last-page-thumb.webp?v=5c84acadbae5"
+    },
+    {
+      "number": 16,
+      "title": "The New Kid Is Me",
+      "slug": "the-new-kid-is-me",
+      "source": "book16/images-print/cover-front.png",
+      "source_sha256": "73610518319d64134808c5ad43b10cfec3a02910249671660aa6266d13a3e09c",
+      "jpeg": "/images/cover-the-new-kid-is-me-front.jpg?v=136d81355153",
+      "webp": "/images/cover-the-new-kid-is-me-front-web.webp?v=74c7d479cfaa",
+      "artwork": "/images/art-the-new-kid-is-me.webp?v=730f4edaea09",
+      "thumbnail": "/images/art-the-new-kid-is-me-thumb.webp?v=187fd2faddbf"
+    },
+    {
+      "number": 17,
+      "title": "The Cave Under the School",
+      "slug": "the-cave-under-the-school",
+      "source": "book17/images-print/cover-front.png",
+      "source_sha256": "2cdbf2d79c09047bfd6345dcf6a370e27aabc622b86d9b4c4f67eb71c7137115",
+      "jpeg": "/images/cover-the-cave-under-the-school-front.jpg?v=677807858485",
+      "webp": "/images/cover-the-cave-under-the-school-front-web.webp?v=f634fb614103",
+      "artwork": "/images/art-the-cave-under-the-school.webp?v=0760340ba505",
+      "thumbnail": "/images/art-the-cave-under-the-school-thumb.webp?v=c726594aa899"
+    },
+    {
+      "number": 18,
+      "title": "Don't Answer the Old Phone",
+      "slug": "dont-answer-the-old-phone",
+      "source": "book18/images-print/cover-front.png",
+      "source_sha256": "1352fc04762b369ac64e81d60723e99083246176b9cada5db263b4b35d5a5ea1",
+      "jpeg": "/images/cover-dont-answer-the-old-phone-front.jpg?v=e8ce78bf73e2",
+      "webp": "/images/cover-dont-answer-the-old-phone-front-web.webp?v=9f644ca6fe97",
+      "artwork": "/images/art-dont-answer-the-old-phone.webp?v=5556fbaf3b3f",
+      "thumbnail": "/images/art-dont-answer-the-old-phone-thumb.webp?v=2d9361e00c13"
+    },
+    {
+      "number": 19,
+      "title": "The Pumpkin Field",
+      "slug": "the-pumpkin-field",
+      "source": "book19/images-print/cover-front.png",
+      "source_sha256": "d3d666b6d4550aa226a4f6c4daf041a3469b6c2a34e10f557986f3a58dd79b4d",
+      "jpeg": "/images/cover-the-pumpkin-field-front.jpg?v=37a6f2107449",
+      "webp": "/images/cover-the-pumpkin-field-front-web.webp?v=7d28e6f6dc32",
+      "artwork": "/images/art-the-pumpkin-field.webp?v=5f7f3a024858",
+      "thumbnail": "/images/art-the-pumpkin-field-thumb.webp?v=95b9273ed580"
+    },
+    {
+      "number": 20,
+      "title": "Welcome to Frightville",
+      "slug": "welcome-to-frightville",
+      "source": "book20/images-print/cover-front.png",
+      "source_sha256": "3bf45c39d9580c0b2e49883f379eaea26013636c880bf881d28ad35b09420c24",
+      "jpeg": "/images/cover-welcome-to-frightville-front.jpg?v=7f5637ab30b6",
+      "webp": "/images/cover-welcome-to-frightville-front-web.webp?v=b6fcfadb17d6",
+      "artwork": "/images/art-welcome-to-frightville.webp?v=6764afc48857",
+      "thumbnail": "/images/art-welcome-to-frightville-thumb.webp?v=db666faaee37"
+    }
+  ]
+}

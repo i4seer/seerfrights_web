@@ -1,4 +1,15 @@
-Seer Frights homepage hero — 2026-10-22
+CURRENT HERO — 2026-10-26
+The current hero is exported directly from the source artwork:
+C:\SEERFRIGHTS\book01\images-print\background-cold-light-master.png
+The original text-free engraved illustration is cropped to 1920 × 1080 and
+exported as images/seer-frights-series-hero.webp and .jpg. It is not newly
+generated artwork. The title remains live HTML, set in the same Alegreya SC
+Black lettering used on the first six covers. The palette follows those covers:
+near-black blue #071014, lantern cyan #6dded8, aged cream #f5ebd1 and brass.
+The six linked artwork thumbnails beneath the hero are exported from Books 1–6.
+Regenerate with python scripts/sync_frights_artwork.py.
+
+HISTORICAL HERO — 2026-10-22 (replaced)
 Generated with the built-in image-generation tool.
 Reference: the current front covers of Seer Frights books 1–8.
 Final assets: images/seer-frights-series-hero.webp and images/seer-frights-series-hero.jpg.
