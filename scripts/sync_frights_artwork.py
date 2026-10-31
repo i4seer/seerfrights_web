@@ -28,17 +28,27 @@ def slugify(title):
     return re.sub(r"[^a-z0-9]+", "-", title).strip("-")
 
 
-def export(source):
+def export(source, book_numbers=None):
     images = ROOT / "images"
     images.mkdir(exist_ok=True)
     books = sorted(source.glob("book[0-9][0-9]"))
+    previous = {}
+    if book_numbers is not None:
+        if not book_numbers.issubset({int(book.name[4:]) for book in books}):
+            raise ValueError('Unknown source book number')
+        previous = {b['number']: b for b in json.loads((ROOT / 'data/frights-artwork.json').read_text(encoding='utf-8'))['books']}
     # Validate the whole source set before replacing the website exports.
     for book in books:
+        if book_numbers is not None and int(book.name[4:]) not in book_numbers:
+            continue
         for name in ("cover-front.png", "cover-front.jpg", "background-cold-light-master.png"):
             if not (book / "images-print" / name).is_file():
                 raise FileNotFoundError(book / "images-print" / name)
     records = []
     for book in books:
+        if book_numbers is not None and int(book.name[4:]) not in book_numbers:
+            records.append(previous[int(book.name[4:])])
+            continue
         title = re.search(r'^title:\s*"(.+)"', (book / "metadata.yaml").read_text(encoding="utf-8-sig"), re.M)[1]
         slug = slugify(title)
         original = book / "images-print" / "cover-front.png"
@@ -63,6 +73,8 @@ def export(source):
             "number": int(book.name[4:]), "title": title, "slug": slug,
             "source": f"{book.name}/images-print/cover-front.png",
             "source_sha256": hashlib.sha256(original.read_bytes()).hexdigest(),
+            "source_art": f"{book.name}/images-print/background-cold-light-master.png",
+            "source_art_sha256": hashlib.sha256(master.read_bytes()).hexdigest(),
             "jpeg": f"/images/{jpeg.name}?v={digest(jpeg)}",
             "webp": f"/images/{webp.name}?v={digest(webp)}",
             "artwork": f"/images/{artwork.name}?v={digest(artwork)}",
@@ -70,6 +82,9 @@ def export(source):
         }
         records.append(record)
         print(f"Synced book {record['number']:02}: {title}")
+    if book_numbers is not None:
+        (ROOT / "data/frights-artwork.json").write_text(json.dumps({"source": "SEERFRIGHTS", "books": records}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        return records
     for name in ("author", "logo"):
         image = Image.open(source / "assets" / f"{name}.png").convert("RGB")
         image.thumbnail((900, 900), Image.Resampling.LANCZOS)
@@ -128,7 +143,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, default=ROOT.parent / "SEERFRIGHTS")
     parser.add_argument("--versions-only", action="store_true")
+    parser.add_argument("--book", type=int, action="append", help="Refresh only this book number; repeat to select more than one")
     args = parser.parse_args()
+    if args.book and args.versions_only:parser.error('--book cannot be combined with --versions-only')
     if not args.versions_only:
-        export(args.source)
+        export(args.source, set(args.book) if args.book else None)
     refresh_versions()

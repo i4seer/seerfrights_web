@@ -17,11 +17,13 @@
       "title": "The Scarecrows Know Your Name",
       "slug": "the-scarecrows-know-your-name",
       "source": "book02/images-print/cover-front.png",
-      "source_sha256": "4d79cb65c2a150338594fc0ed8dda789d6ba68c43c72dea28b82cbdcc4bf7e6d",
-      "jpeg": "/images/cover-the-scarecrows-know-your-name-front.jpg?v=89a235d60e95",
-      "webp": "/images/cover-the-scarecrows-know-your-name-front-web.webp?v=c6998a56fb6c",
-      "artwork": "/images/art-the-scarecrows-know-your-name.webp?v=fabbb95d2647",
-      "thumbnail": "/images/art-the-scarecrows-know-your-name-thumb.webp?v=c3444fb1240a"
+      "source_sha256": "a25fa6d7af87084bc7bf8c252aa36716fc951e5c8a9878faee4f6b56662ce48f",
+      "source_art": "book02/images-print/background-cold-light-master.png",
+      "source_art_sha256": "d09057bb80fcf9f97fe809eb583213e3bb96f8fcb99203b529d5db1e273a20dd",
+      "jpeg": "/images/cover-the-scarecrows-know-your-name-front.jpg?v=9f2f838c07d8",
+      "webp": "/images/cover-the-scarecrows-know-your-name-front-web.webp?v=e320c18fe976",
+      "artwork": "/images/art-the-scarecrows-know-your-name.webp?v=f5a24358abf9",
+      "thumbnail": "/images/art-the-scarecrows-know-your-name-thumb.webp?v=b0a1f095061d"
     },
     {
       "number": 3,
@@ -83,11 +85,13 @@
       "title": "Don't Feed the Statue",
       "slug": "dont-feed-the-statue",
       "source": "book08/images-print/cover-front.png",
-      "source_sha256": "fbed986eb3979c7df676b0d99e5b98a7a1cfa249d0ebd6c3d319d8150b04f6dd",
-      "jpeg": "/images/cover-dont-feed-the-statue-front.jpg?v=7d055d1465f5",
-      "webp": "/images/cover-dont-feed-the-statue-front-web.webp?v=de43d976b42d",
-      "artwork": "/images/art-dont-feed-the-statue.webp?v=55f801629a4c",
-      "thumbnail": "/images/art-dont-feed-the-statue-thumb.webp?v=5b6b7f6a7414"
+      "source_sha256": "898481bb08bfb25e924bbbf3be9ce8459ac18b66669020912ab7388bfcc1571d",
+      "source_art": "book08/images-print/background-cold-light-master.png",
+      "source_art_sha256": "40aa1a8a555b6da4a655b294d9d462628b2e814a5ff9d154b6551381eb34d63a",
+      "jpeg": "/images/cover-dont-feed-the-statue-front.jpg?v=21f451696859",
+      "webp": "/images/cover-dont-feed-the-statue-front-web.webp?v=f8c69c6872f6",
+      "artwork": "/images/art-dont-feed-the-statue.webp?v=46b92d541b41",
+      "thumbnail": "/images/art-dont-feed-the-statue-thumb.webp?v=25a16bfa394a"
     },
     {
       "number": 9,

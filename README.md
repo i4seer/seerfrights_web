@@ -13,6 +13,8 @@ Books 1–8 are included and marked Available now. Kindle editions are verified 
 
 ## 2026-10-26 artwork and theme refresh
 
+October 31: refreshed the covers and backgrounds for Book 2, The Scarecrows Know Your Name, and Book 8, Don't Feed the Statue. Use `python scripts/sync_frights_artwork.py --book 2 --book 8` to refresh selected books while preserving other artwork exports. All existing listings, purchase URLs and site themes are retained.
+
 - Synced all 20 current front covers and text-free illustrations from `C:\SEERFRIGHTS`, including the website’s eight listed books. Source JPEGs are copied exactly; 900 × 1440 WebP covers, landscape artwork, and lightweight thumbnails are exported for the web.
 - Replaced the older photographic hero with Book 1’s actual engraved swamp illustration. A six-image strip introduces the places and objects on the first six covers.
 - Applied the cover typography and palette to every page, including the catalog, book details, About, News, other collections, navigation, buttons, browser colors, and favicons. Book banners use their own updated artwork.
