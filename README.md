@@ -1,6 +1,6 @@
 # Seer Frights website
 
-Static production site for `seerfrights.com`.
+Static production site for `frights.i4seer.com`.
 
 ## Deploy
 Upload the contents of this folder to the web root. The site uses root-relative links and clean directory URLs.
@@ -39,3 +39,7 @@ October 31: refreshed the covers and backgrounds for Book 2, The Scarecrows Know
 
 ## 2026-09-06 homepage hero update
 The homepage now uses the approved combined Seer Frights series artwork rather than stacked book covers. It combines visual elements from the swamp, scarecrow field, Camp Sunny Pines, the house, and recurring kid-scale objects into one panoramic hero. The live site header remains separate from the artwork, the Explore Books button is clickable, and mobile gets a real CTA over the cropped panorama.
+
+## Domain links prepared October 31, 2026
+
+This local project targets `https://frights.i4seer.com/`. Website links, metadata and page generators use the i4seer.com collection subdomains. The publisher bar links to i4Seer Home and all six collections, with a compact Collections menu on smaller screens. Family links open in the same tab; Amazon links remain unchanged. Local CNAME files are prepared for the target addresses. Deployment, GitHub Pages settings, DNS, redirects and validation are handled by the site owner. No deployment or validation is performed by this update. Historical verification records in docs retain their original addresses and dates.
